@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-primary bg-white text-black leading-loose;
+  }
+  .h1 {
+    @apply text-[48px] xl:text-[80px] leading-[1.1] font-semibold text-black;
+  }
+  .h2 {
+    @apply text-[36px] xl:text-[48px] leading-[1.1] font-semibold text-black;
+  }
+  .h3 {
+    @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold text-black;
+  }
+  .text-outline {
+    -webkit-text-stroke: 1px #000000;
+  }
+  .text-outline-hover {
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  a {
+    @apply text-blue-500;
+  }
+
+  a:hover {
+    @apply text-blue-700;
+  }
+
+  .tab {
+    @apply text-blue-500;
+  }
+
+  .tab:hover {
+    @apply text-blue-700;
+  }
+
+  @media (max-width: 800px) {
+    .experience-grid {
+      display: flex;
+      flex-direction: column;
+    }
+    .experience-item {
+      grid-column: span 1 / span 1;
+    }
+  }
+
+  @media (min-width: 801px) {
+    .experience-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+    }
+    .experience-item:nth-child(1) {
+      grid-column: span 2 / span 2;
+    }
+  }
+}
