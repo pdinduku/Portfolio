@@ -9,12 +9,12 @@ const Home = () => {
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           {/* text */}
           <div className="text-center xl:text-left order-2 xl:order-none">
-            <span className="text-lg text-black">Data Science & AI Enthusiast</span>
+            <span className="text-lg text-black">Software Engineer | Cloud & AI Specialist</span>
             <h1 className="text-2xl xl:text-5xl mb-6 text-black">
-              Hello, I'm <br /> <span className="text-blue-500">Adarsh Bandaru</span>
+              Hello, I'm <br /> <span className="text-blue-500">Pravallika Dindukurthi</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-black/80 text-justify">
-              I turn coffee ☕ into code and data into actionable insights. Whether it's analyzing complex datasets or building predictive models, I bring expertise to the world of data science and analytics. Let's connect and make data work for us!
+              Passionate about solving complex problems with technology. Experienced in cloud computing, AI/ML, and big data processing. I architect scalable solutions and turn data into insights that drive impact. Let’s build something amazing together!
             </p>
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
@@ -41,7 +41,7 @@ const Home = () => {
         </div>
       </div>
       <footer className="text-center py-4 text-gray-500">
-        © {new Date().getFullYear()} Adarsh Bandaru
+        © {new Date().getFullYear()} Pravallika Dindukurthi
       </footer>
     </section>
   );
